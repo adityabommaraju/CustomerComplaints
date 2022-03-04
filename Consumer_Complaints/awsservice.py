@@ -2,8 +2,8 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 import os
 
-ACCESS_KEY = 'AKIASE4BDYN3ZF3L4NBG'
-SECRET_KEY = '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'
+ACCESS_KEY = 'ACCESS_KEY'
+SECRET_KEY = 'SECRET_KEY'
 FILE_NAME = 'data_2022-03-02.json'
 UPLOAD_FILE_PATH = "C:/Users/029338502/CustomerComplaints/Consumer_Complaints/artifacts/"
 BUCKET =  "customer-complaints-la"
