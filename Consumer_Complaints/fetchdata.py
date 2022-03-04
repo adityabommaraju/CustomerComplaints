@@ -10,7 +10,7 @@ data = response.json()
 date = dt.datetime.now()
 
 date_string = str(date.date())
-FILE_PATH = "C:/Users/029338502/Desktop/Data_Upload_Files/data_" + date_string + ".json"
+FILE_PATH = "C:/Users/029338502/CustomerComplaints/Consumer_Complaints/artifacts/data_" + date_string + ".json"
 
 with open(FILE_PATH, "w") as outfile:
     json.dump(data, outfile)
